@@ -10,13 +10,14 @@ class Comment implements Comparable{
 	Commentator commentator = new Commentator()
 	Date dateCreated
 	
-		public int compareTo(Object o) {
-			return dateCreated.compareTo(o.dateCreated)
-		}
+	public int compareTo(Object o) {
+		return dateCreated.compareTo(o.dateCreated)
+	}
 	
 
     static constraints = {
     }
+	
 	static mapping = {
 		comment type: "text"
 	}

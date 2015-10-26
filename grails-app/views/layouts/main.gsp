@@ -19,15 +19,7 @@
 		--%>
 		<link rel="import" href="${resource(dir:'bower_components',file:'paper-toolbar/paper-toolbar.html')}"/>
 		<link rel="import" href="${resource(dir:'bower_components',file:'paper-card/paper-card.html')}"/>
-		<link rel="import" href="${resource(dir:'bower_components',file:'paper-button/paper-button.html')}"/>
-		<style type="text/css">
-			html {
-			  font-family: sans-serif; /* 1 */
-			  -ms-text-size-adjust: 100%; /* 2 */
-			  -webkit-text-size-adjust: 100%; /* 2 */
-			}
-			
-		</style>
+		<link rel="import" href="${resource(dir:'bower_components',file:'paper-button/paper-button.html')}"/>		
 		<g:layoutHead/>
 	</head>
 	<body class="unresolved">

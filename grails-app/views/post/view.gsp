@@ -9,7 +9,6 @@
 				background: #E0F2F7;
 			}
 			paper-card {
-		      width: 100%;
 		      margin-top: 16px;
 		      background: #F6CECEl;
 		    }
@@ -37,23 +36,20 @@
 		        	<g:link controller="comment" action="edit" params="[postId:post.id]"><paper-button raised class="colorful" >Add a comment</paper-button></g:link> 
 		      </div>
 		    </paper-card>
-		    <div id="comments">
-		    	<h3 style="margin: 1em 0 1em 0;
-				border-bottom: 1px solid #d6dce0;
-				padding-bottom: 0.5em;">Comments</h3>
-				<g:each in="${post.comments}" var="comment"> 
-			    <paper-card class="pink">
-			      <div class="card-content">
-			        ${comment.comment}
-			      </div>
-			      <div class="card-content">
-			       <p>Created by: ${comment.commentator.name} on ${comment.dateCreated}</p>
-			      </div>
-			    </paper-card>
-			
-			</g:each> 
-		    </div>
 		    
+		    <div id="comments">
+		    	<h3 style="margin: 1em 0 1em 0; border-bottom: 1px solid #d6dce0; padding-bottom: 0.5em;">Comments</h3>
+				<g:each in="${post.comments}" var="comment"> 
+				    <paper-card class="pink">
+				      <div class="card-content">
+				        ${comment.comment}
+				      </div>
+				      <div class="card-content">
+				       <p>Created by: ${comment.commentator.name} on ${comment.dateCreated}</p>
+				      </div>
+				    </paper-card>			
+				</g:each> 
+		    </div>		    
 		</div>
 	</body> 
 </html>

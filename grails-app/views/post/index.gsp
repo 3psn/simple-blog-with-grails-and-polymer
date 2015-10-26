@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8" %> 
 <html> 
 	<head> 
-		<title>All Posts</title>
+		<title>Home</title>
 		<meta name="layout" content="main"> 
 		
 		<style>
@@ -20,7 +20,7 @@
 	<body> 
 	 <div id="main-content">
 	 	<div id="header">
-	 		<h1 style="diaplay:inline">All posts</h1> 
+	 		<h2 style="diaplay:inline">All posts</h2> 
 	 		<g:link controller="post" action="edit" class="button" style="text-decoration:none; float:right; margin-top:-60px;"> Create a new post </g:link> 
 	 	</div>
 	 		

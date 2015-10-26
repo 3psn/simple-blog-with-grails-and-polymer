@@ -1,13 +1,13 @@
 <%@ page contentType="text/html;charset=utf-8" %>
 <html>
   <head>
-      <title>Post</title>
+      <title>Create/Edit Post</title>
       <meta name="layout" content="main"> 
   </head>
   <body>
   <div id="main-content">
   	<div id="header">
-  		<h1>Create/ Edit post</h1>
+  		<h2>Create/ Edit post</h2>
   		<g:link controller="post" action="index" class="button" style="text-decoration:none; float:right; margin-top:-60px;">Cancel</g:link>
   	</div>
   	<div id="validationerrors">
